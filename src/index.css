@@ -1,0 +1,68 @@
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*color: rgb(69, 90, 100);*/
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1rem;
+
+  /*background-color: #172033;*/
+/*  background: -moz-linear-gradient(45deg, rgba(31, 41, 55, 0.6), rgba(0, 188, 212, 0.69) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(31, 41, 55, 0.6), rgba(0, 188, 212, 0.69) 100%);
+  background: linear-gradient(45deg, rgba(31, 41, 55, 0.6), rgba(0, 188, 212, 0.69) 100%);*/
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+ul,
+ol,
+dl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border-radius: 10px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+img:hover {
+  border-radius: 20px;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+nav {
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  background-color: rgba(31,41,55,var(--tw-bg-opacity));
+  color: rgba(243,244,246,var(--tw-text-opacity));
+}
+
+nav .nav-item a {
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: white !important;
+}
+
+nav .nav-item a.active {
+  color: #00bcd4 !important;
+}
+
+footer {
+  --tw-bg-opacity: 1;
+  background-color: rgba(31,41,55,var(--tw-bg-opacity));
+}

@@ -1,0 +1,59 @@
+.home-intro {
+  position: relative;
+}
+
+.home-header {
+  background-color: transparent;
+}
+
+.home-header::after {
+  /*background: url('https://mdbootstrap.com/img/Photos/Slides/img%20(134).jpg') no-repeat center center fixed;*/
+  /*background: url('https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80') no-repeat center center fixed;*/
+  /*background: url('https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg') no-repeat center center fixed;*/
+  background: url(https://images.unsplash.com/photo-1528668638375-51eae2f5b1ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3306&q=80) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  content: "";
+  /*opacity: 0.5;*/
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+
+.App-logo {
+  height: 30vmin;
+  margin-bottom: 1vmin;
+  pointer-events: none;
+}
+
+.App-logo img {
+  opacity: 0.3;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.home-header {
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
