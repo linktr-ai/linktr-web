@@ -19,7 +19,7 @@ const LTFooter = () => {
             </p>
           </MDBCol>
 
-          <MDBCol md="3">
+          <MDBCol md="2">
             <h5 className="title">链接</h5>
             <ul className='mt-0'>
               <li className="list-unstyled mt-1">
@@ -36,7 +36,7 @@ const LTFooter = () => {
               </li>
             </ul>
           </MDBCol>
-          <MDBCol md="3">
+          <MDBCol md="2">
             <h5 className="title">&nbsp;</h5>
             <ul className='mt-0'>
               <li className="list-unstyled mt-1">
@@ -50,6 +50,20 @@ const LTFooter = () => {
               </li>
               <li className="list-unstyled mt-1">
                 <a href="https://www.facebook.com/encore.shao">Encore - Facebook</a>
+              </li>
+            </ul>
+          </MDBCol>
+          <MDBCol md="2">
+            <h5 className="title">&nbsp;</h5>
+            <ul className='mt-0'>
+              <li className="list-unstyled mt-1">
+                <a href="https://ranbot.online">RanBOT</a>
+              </li>
+              <li className="list-unstyled mt-1">
+                <a href="https://linked-viewer.ranbot.online">LinkedIn Viewer</a>
+              </li>
+              <li className="list-unstyled mt-1">
+                <a href="https://inked.top/">Top Inked</a>
               </li>
             </ul>
           </MDBCol>

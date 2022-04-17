@@ -1,5 +1,6 @@
 import React from "react";
 import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon } from "mdbreact";
+import Vultr from '../vultr'
 
 const LTMember = () => {
   const members = [
@@ -71,7 +72,8 @@ const LTMember = () => {
   ]
 
   return (
-    <MDBCard className="my-5 px-5 pb-5 text-center">
+    <>
+      <MDBCard className="my-5 px-5 pb-5 text-center">
         <MDBCardBody>
           <h2 className="h1-responsive font-weight-bold my-5 black-text">
             我们的团队
@@ -111,6 +113,8 @@ const LTMember = () => {
           </MDBRow>
         </MDBCardBody>
       </MDBCard>
+      <Vultr />
+    </>
   );
 }
 

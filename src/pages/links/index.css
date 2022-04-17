@@ -11,8 +11,14 @@
   margin: .5rem;
   --tw-bg-opacity: 1;
   --tw-text-opacity: 1;
-  background-color: rgba(31,41,55,var(--tw-bg-opacity));
-  color: rgba(243,244,246,var(--tw-text-opacity));
+
+  /* background-color: rgba(31,41,55,var(--tw-bg-opacity));
+  color: rgba(243,244,246,var(--tw-text-opacity)); */
+
+  background: linear-gradient(45deg, #433aa3 1%, #5856cd 64%, #6769eb 97%);
+  color: var(--bg-primary);
+  box-shadow: 0px 5px 30px -5px rgba(37, 45, 51, 50%);
+
   border-radius: .5rem;
   color: white;
 }

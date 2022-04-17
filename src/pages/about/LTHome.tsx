@@ -1,9 +1,11 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 import logo from './../../images/logo.svg';
-import { MDBCard, MDBCardBody, MDBBtn } from "mdbreact";
 
+import { MDBCard, MDBCardBody, MDBBtn } from "mdbreact";
 import LTFeaturesPage from './../../components/LTFeaturesPage'
+import Vultr from '../vultr'
+
 import './LTHome.css'
 
 import { useTranslation } from 'react-i18next';
@@ -31,6 +33,8 @@ const LTHome = () => {
       </section>
 
       <LTFeaturesPage />
+
+      <Vultr />
     </>
   );
 }
