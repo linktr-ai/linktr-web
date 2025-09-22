@@ -1,6 +1,7 @@
 import React from "react";
 import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon } from "mdbreact";
 import Vultr from '../vultr'
+import userAvatar from '../../images/user-avatar.png'
 
 const LTMember = () => {
   const members = [
@@ -84,11 +85,11 @@ const LTMember = () => {
 
           <MDBRow>
             {members.map(
-              (item: any, index: number) => (
-                <MDBCol md="4" className="mb-lg-0 mb-5">
+              (item: any, mIndex: number) => (
+                <MDBCol md="4" className="mb-lg-0 mb-5" key={mIndex}>
                   <div>
                     <img
-                      src="https://icon-library.com/images/icon-programmer/icon-programmer-14.jpg"
+                      src={userAvatar}
                       className="rounded-circle z-depth-1 img-fluid"
                       alt="Encore Shao"
                     />
@@ -100,8 +101,8 @@ const LTMember = () => {
                   </p>
                   <ul className="list-unstyled mb-0">
                     { item['links'].map(
-                      (link: any, index: number) => (
-                        <a href={link['link']} className="p-2 fa-lg">
+                      (link: any, linkIndex: number) => (
+                        <a href={link['link']} className="p-2 fa-lg" key={linkIndex}>
                           <MDBIcon fab icon={`${link['name']}`} className="blue-text" />
                         </a>
                       )
