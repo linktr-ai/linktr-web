@@ -46,7 +46,7 @@ const LTFooter = () => {
                 <a href="https://github.com/encoreshao">Encore - Github</a>
               </li>
               <li className="list-unstyled mt-1">
-                <a href="https://linkedin.com/in/encore-shao">Encore - LinkedIn</a>
+                <a href="https://linkedin.com/in/encoreshao">Encore - LinkedIn</a>
               </li>
               <li className="list-unstyled mt-1">
                 <a href="https://www.facebook.com/encore.shao">Encore - Facebook</a>
